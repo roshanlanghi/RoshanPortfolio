@@ -57,6 +57,11 @@ export function AboutSection() {
               When I'm not coding, I contribute to open-source projects, write technical articles, and participate in hackathons. I believe in continuous learning and staying updated with the latest technologies and industry trends.
             </p>
             
+            <div className="flex items-center mb-6 text-gray-700 dark:text-gray-300">
+              <i className="fa-solid fa-location-dot mr-2 text-primary-600 dark:text-primary-400"></i>
+              <span>Kopargaon, Maharashtra, India</span>
+            </div>
+            
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
               {[
                 { value: "5+", label: "Years Experience" },

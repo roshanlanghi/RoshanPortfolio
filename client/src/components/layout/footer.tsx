@@ -49,7 +49,7 @@ export function Footer() {
                 <i className="fa-brands fa-linkedin-in text-xl"></i>
               </a>
               <a 
-                href="mailto:roshan.langhi@example.com" 
+                href="mailto:roshanlanghi28@gmail.com" 
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="Email"
               >

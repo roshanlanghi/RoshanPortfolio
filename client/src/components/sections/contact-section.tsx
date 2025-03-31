@@ -86,10 +86,10 @@ export function ContactSection() {
                   <div>
                     <h4 className="font-medium text-gray-800 dark:text-gray-200">Email</h4>
                     <a 
-                      href="mailto:roshan.langhi@example.com" 
+                      href="mailto:roshanlanghi28@gmail.com" 
                       className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400"
                     >
-                      roshan.langhi@example.com
+                      roshanlanghi28@gmail.com
                     </a>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-800 dark:text-gray-200">Location</h4>
-                    <p className="text-gray-600 dark:text-gray-400">San Francisco, California</p>
+                    <p className="text-gray-600 dark:text-gray-400">Kopargaon, Maharashtra, India</p>
                   </div>
                 </div>
               </div>
@@ -118,22 +118,13 @@ export function ContactSection() {
                     <i className="fa-brands fa-github"></i>
                   </a>
                   <a 
-                    href="https://linkedin.com/in/roshanlanghi" 
+                    href="https://www.linkedin.com/in/roshan-langhi-88b502304/" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="bg-gray-200 dark:bg-dark-300 hover:bg-primary-100 dark:hover:bg-primary-900 p-3 rounded-full text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                     aria-label="LinkedIn"
                   >
                     <i className="fa-brands fa-linkedin-in"></i>
-                  </a>
-                  <a 
-                    href="https://twitter.com/roshanlanghi" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="bg-gray-200 dark:bg-dark-300 hover:bg-primary-100 dark:hover:bg-primary-900 p-3 rounded-full text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-                    aria-label="Twitter"
-                  >
-                    <i className="fa-brands fa-twitter"></i>
                   </a>
                 </div>
               </div>
