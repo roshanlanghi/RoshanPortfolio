@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#f0f6ff"/>
+  
+  <!-- Background elements -->
+  <circle cx="400" cy="300" r="200" fill="#e1eeff"/>
+  <circle cx="200" cy="150" r="50" fill="#d4e6ff"/>
+  <circle cx="600" cy="450" r="70" fill="#d4e6ff"/>
+  
+  <!-- People network visualization -->
+  <circle cx="300" cy="250" r="30" fill="#6366f1" opacity="0.8"/>
+  <circle cx="400" cy="200" r="25" fill="#8b5cf6" opacity="0.8"/>
+  <circle cx="500" cy="250" r="35" fill="#6366f1" opacity="0.8"/>
+  <circle cx="350" cy="350" r="30" fill="#8b5cf6" opacity="0.8"/>
+  <circle cx="450" cy="370" r="20" fill="#6366f1" opacity="0.8"/>
+  <circle cx="250" cy="350" r="25" fill="#8b5cf6" opacity="0.8"/>
+  
+  <!-- Connection lines -->
+  <line x1="300" y1="250" x2="400" y2="200" stroke="#6366f1" stroke-width="4" opacity="0.5"/>
+  <line x1="400" y1="200" x2="500" y2="250" stroke="#8b5cf6" stroke-width="4" opacity="0.5"/>
+  <line x1="300" y1="250" x2="350" y2="350" stroke="#6366f1" stroke-width="4" opacity="0.5"/>
+  <line x1="350" y1="350" x2="450" y2="370" stroke="#8b5cf6" stroke-width="4" opacity="0.5"/>
+  <line x1="300" y1="250" x2="250" y2="350" stroke="#6366f1" stroke-width="4" opacity="0.5"/>
+  <line x1="400" y1="200" x2="350" y2="350" stroke="#8b5cf6" stroke-width="4" opacity="0.5"/>
+  <line x1="500" y1="250" x2="450" y2="370" stroke="#6366f1" stroke-width="4" opacity="0.5"/>
+  <line x1="350" y1="350" x2="250" y2="350" stroke="#8b5cf6" stroke-width="4" opacity="0.5"/>
+  
+  <!-- Rating Stars -->
+  <g transform="translate(400, 100) scale(0.7)">
+    <polygon points="0,0 29,-100 95,-30 -58,-30 -95,-100" fill="#fbbf24" transform="rotate(0)"/>
+    <polygon points="0,0 29,-100 95,-30 -58,-30 -95,-100" fill="#fbbf24" transform="rotate(72)"/>
+    <polygon points="0,0 29,-100 95,-30 -58,-30 -95,-100" fill="#fbbf24" transform="rotate(144)"/>
+    <polygon points="0,0 29,-100 95,-30 -58,-30 -95,-100" fill="#fbbf24" transform="rotate(216)"/>
+    <polygon points="0,0 29,-100 95,-30 -58,-30 -95,-100" fill="#fbbf24" transform="rotate(288)"/>
+  </g>
+  
+  <!-- Python Icon -->
+  <g transform="translate(120, 450)">
+    <path d="M 25,0 C 11.193,0 0,11.193 0,25 c 0,13.807 11.193,25 25,25 13.807,0 25,-11.193 25,-25 C 50,11.193 38.807,0 25,0 Z" fill="#4B8BBE"/>
+    <path d="M 25,10 C 16.716,10 10,16.716 10,25 c 0,8.284 6.716,15 15,15 8.284,0 15,-6.716 15,-15 C 40,16.716 33.284,10 25,10 Z m -5,5 h 10 v 10 h -10 z" fill="#FFD43B"/>
+  </g>
+  
+  <!-- ML Icon -->
+  <g transform="translate(630, 100)">
+    <rect x="0" y="0" width="60" height="60" rx="10" fill="#8b5cf6" opacity="0.8"/>
+    <circle cx="15" cy="15" r="5" fill="white"/>
+    <circle cx="45" cy="15" r="5" fill="white"/>
+    <circle cx="15" cy="45" r="5" fill="white"/>
+    <circle cx="45" cy="45" r="5" fill="white"/>
+    <line x1="15" y1="15" x2="45" y2="45" stroke="white" stroke-width="2"/>
+    <line x1="45" y1="15" x2="15" y2="45" stroke="white" stroke-width="2"/>
+  </g>
+</svg>

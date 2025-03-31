@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#f0fdfa"/>
+  
+  <!-- Background elements -->
+  <rect x="50" y="50" width="700" height="500" rx="20" fill="#ccfbf1"/>
+  
+  <!-- Neural Network Visualization -->
+  <g>
+    <!-- Input Layer -->
+    <circle cx="150" cy="150" r="20" fill="#14b8a6" opacity="0.8"/>
+    <circle cx="150" cy="225" r="20" fill="#14b8a6" opacity="0.8"/>
+    <circle cx="150" cy="300" r="20" fill="#14b8a6" opacity="0.8"/>
+    <circle cx="150" cy="375" r="20" fill="#14b8a6" opacity="0.8"/>
+    <circle cx="150" cy="450" r="20" fill="#14b8a6" opacity="0.8"/>
+    
+    <!-- Hidden Layer 1 -->
+    <circle cx="300" cy="175" r="20" fill="#0d9488" opacity="0.8"/>
+    <circle cx="300" cy="250" r="20" fill="#0d9488" opacity="0.8"/>
+    <circle cx="300" cy="325" r="20" fill="#0d9488" opacity="0.8"/>
+    <circle cx="300" cy="400" r="20" fill="#0d9488" opacity="0.8"/>
+    
+    <!-- Hidden Layer 2 -->
+    <circle cx="450" cy="200" r="20" fill="#0f766e" opacity="0.8"/>
+    <circle cx="450" cy="300" r="20" fill="#0f766e" opacity="0.8"/>
+    <circle cx="450" cy="400" r="20" fill="#0f766e" opacity="0.8"/>
+    
+    <!-- Output Layer -->
+    <circle cx="600" cy="225" r="20" fill="#115e59" opacity="0.8"/>
+    <circle cx="600" cy="375" r="20" fill="#115e59" opacity="0.8"/>
+    
+    <!-- Connections from Input to Hidden Layer 1 -->
+    <g stroke="#14b8a6" stroke-width="1.5" opacity="0.6">
+      <!-- Connect each input node to each hidden1 node -->
+      <line x1="150" y1="150" x2="300" y2="175"/>
+      <line x1="150" y1="150" x2="300" y2="250"/>
+      <line x1="150" y1="150" x2="300" y2="325"/>
+      <line x1="150" y1="150" x2="300" y2="400"/>
+      
+      <line x1="150" y1="225" x2="300" y2="175"/>
+      <line x1="150" y1="225" x2="300" y2="250"/>
+      <line x1="150" y1="225" x2="300" y2="325"/>
+      <line x1="150" y1="225" x2="300" y2="400"/>
+      
+      <line x1="150" y1="300" x2="300" y2="175"/>
+      <line x1="150" y1="300" x2="300" y2="250"/>
+      <line x1="150" y1="300" x2="300" y2="325"/>
+      <line x1="150" y1="300" x2="300" y2="400"/>
+      
+      <line x1="150" y1="375" x2="300" y2="175"/>
+      <line x1="150" y1="375" x2="300" y2="250"/>
+      <line x1="150" y1="375" x2="300" y2="325"/>
+      <line x1="150" y1="375" x2="300" y2="400"/>
+      
+      <line x1="150" y1="450" x2="300" y2="175"/>
+      <line x1="150" y1="450" x2="300" y2="250"/>
+      <line x1="150" y1="450" x2="300" y2="325"/>
+      <line x1="150" y1="450" x2="300" y2="400"/>
+    </g>
+    
+    <!-- Connections from Hidden Layer 1 to Hidden Layer 2 -->
+    <g stroke="#0d9488" stroke-width="1.5" opacity="0.6">
+      <!-- Connect each hidden1 node to each hidden2 node -->
+      <line x1="300" y1="175" x2="450" y2="200"/>
+      <line x1="300" y1="175" x2="450" y2="300"/>
+      <line x1="300" y1="175" x2="450" y2="400"/>
+      
+      <line x1="300" y1="250" x2="450" y2="200"/>
+      <line x1="300" y1="250" x2="450" y2="300"/>
+      <line x1="300" y1="250" x2="450" y2="400"/>
+      
+      <line x1="300" y1="325" x2="450" y2="200"/>
+      <line x1="300" y1="325" x2="450" y2="300"/>
+      <line x1="300" y1="325" x2="450" y2="400"/>
+      
+      <line x1="300" y1="400" x2="450" y2="200"/>
+      <line x1="300" y1="400" x2="450" y2="300"/>
+      <line x1="300" y1="400" x2="450" y2="400"/>
+    </g>
+    
+    <!-- Connections from Hidden Layer 2 to Output -->
+    <g stroke="#0f766e" stroke-width="1.5" opacity="0.6">
+      <!-- Connect each hidden2 node to each output node -->
+      <line x1="450" y1="200" x2="600" y2="225"/>
+      <line x1="450" y1="200" x2="600" y2="375"/>
+      
+      <line x1="450" y1="300" x2="600" y2="225"/>
+      <line x1="450" y1="300" x2="600" y2="375"/>
+      
+      <line x1="450" y1="400" x2="600" y2="225"/>
+      <line x1="450" y1="400" x2="600" y2="375"/>
+    </g>
+    
+    <!-- Layer Labels -->
+    <text x="150" y="100" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#134e4a">Input Layer</text>
+    <text x="300" y="100" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#134e4a">Hidden Layer 1</text>
+    <text x="450" y="100" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#134e4a">Hidden Layer 2</text>
+    <text x="600" y="100" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#134e4a">Output Layer</text>
+  </g>
+  
+  <!-- Python Icon -->
+  <g transform="translate(100, 520)">
+    <circle cx="25" cy="25" r="25" fill="#14b8a6"/>
+    <path d="M 25 10 L 35 25 L 25 40 L 15 25 Z" fill="#134e4a"/>
+  </g>
+  
+  <!-- Data Science Icon -->
+  <g transform="translate(650, 520)">
+    <circle cx="25" cy="25" r="25" fill="#14b8a6"/>
+    <rect x="15" y="15" width="20" height="20" fill="#134e4a"/>
+  </g>
+  
+  <!-- Activation Function Visualization -->
+  <g transform="translate(600, 450)">
+    <rect x="0" y="0" width="120" height="80" rx="5" fill="#99f6e4"/>
+    <polyline points="10,60 30,60 50,20 70,20 90,40 110,40" 
+              stroke="#134e4a" stroke-width="2" fill="none"/>
+    <text x="60" y="75" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#134e4a">Activation Function</text>
+  </g>
+  
+  <!-- Framework Architecture Diagram -->
+  <g transform="translate(80, 450)">
+    <rect x="0" y="0" width="160" height="100" rx="5" fill="#99f6e4"/>
+    
+    <rect x="20" y="20" width="120" height="20" rx="3" fill="#14b8a6"/>
+    <text x="80" y="35" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Optimizer</text>
+    
+    <rect x="20" y="45" width="120" height="20" rx="3" fill="#0d9488"/>
+    <text x="80" y="60" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Loss Functions</text>
+    
+    <rect x="20" y="70" width="120" height="20" rx="3" fill="#0f766e"/>
+    <text x="80" y="85" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Layers API</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="80" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#134e4a">Neural Network Framework</text>
+</svg>

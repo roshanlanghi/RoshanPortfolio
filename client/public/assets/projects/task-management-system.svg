@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#fff8f0"/>
+  
+  <!-- Background elements -->
+  <rect x="50" y="50" width="700" height="500" rx="20" fill="#fff2e6"/>
+  
+  <!-- Server nodes -->
+  <g>
+    <!-- Server 1 -->
+    <rect x="150" y="150" width="100" height="160" rx="10" fill="#fb923c" opacity="0.8"/>
+    <rect x="160" y="160" width="80" height="20" rx="5" fill="#ffffff"/>
+    <rect x="160" y="190" width="80" height="20" rx="5" fill="#ffffff"/>
+    <rect x="160" y="220" width="80" height="20" rx="5" fill="#ffffff"/>
+    <rect x="160" y="250" width="80" height="20" rx="5" fill="#ffffff"/>
+    <rect x="160" y="280" width="80" height="20" rx="5" fill="#ffffff"/>
+    
+    <!-- Server 2 -->
+    <rect x="350" y="120" width="100" height="160" rx="10" fill="#fb923c" opacity="0.8"/>
+    <rect x="360" y="130" width="80" height="20" rx="5" fill="#ffffff"/>
+    <rect x="360" y="160" width="80" height="20" rx="5" fill="#ffffff"/>
+    <rect x="360" y="190" width="80" height="20" rx="5" fill="#ffffff"/>
+    <rect x="360" y="220" width="80" height="20" rx="5" fill="#ffffff"/>
+    <rect x="360" y="250" width="80" height="20" rx="5" fill="#ffffff"/>
+    
+    <!-- Server 3 -->
+    <rect x="550" y="150" width="100" height="160" rx="10" fill="#fb923c" opacity="0.8"/>
+    <rect x="560" y="160" width="80" height="20" rx="5" fill="#ffffff"/>
+    <rect x="560" y="190" width="80" height="20" rx="5" fill="#ffffff"/>
+    <rect x="560" y="220" width="80" height="20" rx="5" fill="#ffffff"/>
+    <rect x="560" y="250" width="80" height="20" rx="5" fill="#ffffff"/>
+    <rect x="560" y="280" width="80" height="20" rx="5" fill="#ffffff"/>
+  </g>
+  
+  <!-- Task distribution visualization -->
+  <g>
+    <!-- Task Queue -->
+    <rect x="300" y="390" width="200" height="60" rx="10" fill="#dc2626" opacity="0.7"/>
+    <rect x="310" y="400" width="30" height="40" rx="5" fill="#ffffff"/>
+    <rect x="350" y="400" width="30" height="40" rx="5" fill="#ffffff"/>
+    <rect x="390" y="400" width="30" height="40" rx="5" fill="#ffffff"/>
+    <rect x="430" y="400" width="30" height="40" rx="5" fill="#ffffff"/>
+    <rect x="470" y="400" width="20" height="40" rx="5" fill="#ffffff"/>
+    
+    <!-- Distribution Lines -->
+    <line x1="340" y1="390" x2="200" y2="310" stroke="#dc2626" stroke-width="3" stroke-dasharray="5 5"/>
+    <line x1="400" y1="390" x2="400" y2="280" stroke="#dc2626" stroke-width="3" stroke-dasharray="5 5"/>
+    <line x1="460" y1="390" x2="600" y2="310" stroke="#dc2626" stroke-width="3" stroke-dasharray="5 5"/>
+    
+    <!-- Load Balancer -->
+    <polygon points="400,350 370,320 430,320" fill="#fb923c"/>
+    <text x="400" y="340" font-family="Arial" font-size="10" text-anchor="middle" fill="white">Load Balancer</text>
+  </g>
+  
+  <!-- Connection lines -->
+  <g stroke="#fb923c" stroke-width="2">
+    <path d="M 250 200 C 300 180, 300 180, 350 180" fill="none"/>
+    <path d="M 250 240 C 300 260, 300 260, 350 220" fill="none"/>
+    <path d="M 450 160 C 500 140, 500 140, 550 180" fill="none"/>
+    <path d="M 450 200 C 500 220, 500 220, 550 220" fill="none"/>
+  </g>
+  
+  <!-- Java Icon -->
+  <g transform="translate(375, 50)">
+    <circle cx="25" cy="25" r="25" fill="#f97316"/>
+    <text x="25" y="35" font-family="Arial" font-size="25" font-weight="bold" text-anchor="middle" fill="white">J</text>
+  </g>
+  
+  <!-- Fault Tolerance Indicator -->
+  <g transform="translate(150, 80)">
+    <rect x="0" y="0" width="120" height="30" rx="5" fill="#fee2e2"/>
+    <text x="60" y="20" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#dc2626">Fault Tolerance</text>
+  </g>
+  
+  <!-- Distributed System Indicator -->
+  <g transform="translate(530, 80)">
+    <rect x="0" y="0" width="140" height="30" rx="5" fill="#fee2e2"/>
+    <text x="70" y="20" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#dc2626">Distributed System</text>
+  </g>
+  
+  <!-- Task Completion Checkmarks -->
+  <g fill="#16a34a">
+    <g transform="translate(170, 165) scale(0.6)">
+      <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+    </g>
+    <g transform="translate(370, 135) scale(0.6)">
+      <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+    </g>
+    <g transform="translate(570, 165) scale(0.6)">
+      <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+    </g>
+  </g>
+</svg>
