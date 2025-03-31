@@ -46,6 +46,28 @@ export function MobileMenu({ links }: MobileMenuProps) {
                   {link.label}
                 </a>
               ))}
+              
+              {/* Social Links */}
+              <div className="w-full flex justify-center gap-6 py-4 border-t border-gray-200 dark:border-dark-400">
+                <a 
+                  href="https://github.com/roshanlanghi" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  aria-label="GitHub"
+                >
+                  <i className="fa-brands fa-github text-xl"></i>
+                </a>
+                <a 
+                  href="https://www.linkedin.com/in/roshan-langhi-88b502304/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  aria-label="LinkedIn"
+                >
+                  <i className="fa-brands fa-linkedin-in text-xl"></i>
+                </a>
+              </div>
             </nav>
           </motion.div>
         )}

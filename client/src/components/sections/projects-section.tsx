@@ -149,14 +149,21 @@ export function ProjectsSection() {
                     {project.description}
                   </p>
                   <div className="flex justify-between items-center">
-                    <a href="#" className="text-primary-600 dark:text-primary-400 hover:underline font-medium">
+                    <a 
+                      href={`https://github.com/roshanlanghi`} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-primary-600 dark:text-primary-400 hover:underline font-medium"
+                    >
                       View Project
                     </a>
                     <div className="flex gap-3">
-                      <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200">
-                        <i className="fa-solid fa-code-branch"></i>
-                      </a>
-                      <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200">
+                      <a 
+                        href={`https://github.com/roshanlanghi`} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200"
+                      >
                         <i className="fa-brands fa-github"></i>
                       </a>
                     </div>

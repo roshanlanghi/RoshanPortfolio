@@ -39,7 +39,27 @@ export function Navbar() {
             </a>
           ))}
           
-          <ThemeToggle />
+          <div className="flex items-center gap-4">
+            <a 
+              href="https://github.com/roshanlanghi" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+              aria-label="GitHub"
+            >
+              <i className="fa-brands fa-github text-lg"></i>
+            </a>
+            <a 
+              href="https://www.linkedin.com/in/roshan-langhi-88b502304/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+              aria-label="LinkedIn"
+            >
+              <i className="fa-brands fa-linkedin-in text-lg"></i>
+            </a>
+            <ThemeToggle />
+          </div>
         </nav>
         
         {/* Mobile Navigation */}

@@ -40,22 +40,13 @@ export function Footer() {
                 <i className="fa-brands fa-github text-xl"></i>
               </a>
               <a 
-                href="https://linkedin.com/in/roshanlanghi" 
+                href="https://www.linkedin.com/in/roshan-langhi-88b502304/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="LinkedIn"
               >
                 <i className="fa-brands fa-linkedin-in text-xl"></i>
-              </a>
-              <a 
-                href="https://twitter.com/roshanlanghi" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-                aria-label="Twitter"
-              >
-                <i className="fa-brands fa-twitter text-xl"></i>
               </a>
               <a 
                 href="mailto:roshan.langhi@example.com" 
