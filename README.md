@@ -40,7 +40,7 @@ npm run dev
 
 ## Deployment
 
-This project is deployed on GitHub Pages and can be viewed at [https://roshanlanghi.github.io/portfolio](https://roshanlanghi.github.io/portfolio).
+This project is deployed on Replit.
 
 ## Contact
 
