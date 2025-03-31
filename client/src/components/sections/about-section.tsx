@@ -20,7 +20,11 @@ export function AboutSection() {
             <div className="relative">
               <div className="bg-white dark:bg-dark-500 p-4 rounded-lg shadow-lg">
                 <div className="aspect-[4/5] bg-gray-200 dark:bg-dark-300 rounded overflow-hidden flex items-center justify-center">
-                  <i className="fa-solid fa-image text-5xl text-gray-400 dark:text-gray-600"></i>
+                  <img 
+                    src="/assets/profile.png" 
+                    alt="Roshan Langhi" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
               <motion.div 

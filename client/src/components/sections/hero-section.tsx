@@ -38,7 +38,11 @@ export function HeroSection() {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-primary-600 bg-opacity-10 dark:bg-primary-900 dark:bg-opacity-30 overflow-hidden flex items-center justify-center p-2">
                 <div className="w-full h-full rounded-full bg-gray-200 dark:bg-dark-400 flex items-center justify-center overflow-hidden border-4 border-white dark:border-dark-300">
-                  <i className="fa-solid fa-user text-7xl text-gray-400 dark:text-gray-600"></i>
+                  <img 
+                    src="/assets/profile.png" 
+                    alt="Roshan Langhi" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
               
